@@ -1,4 +1,3 @@
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
@@ -9,7 +8,7 @@ plugins {
     alias(libs.plugins.taskTree)
 }
 
-group = "org.danilopianini"
+group = "it.unibo.collektive"
 
 repositories {
     mavenCentral()
@@ -49,25 +48,42 @@ signing {
 }
 
 publishOnCentral {
-    projectLongName.set("Template Kotlin JVM Project")
-    projectDescription.set("A template repository for Kotlin JVM projects")
-    repository("https://maven.pkg.github.com/danysk/${rootProject.name}".lowercase()) {
-        user.set("DanySK")
-        password.set(System.getenv("GITHUB_TOKEN"))
-    }
+    projectLongName = "Collektive-Alchemist integration"
+    projectDescription = "Integration of the Collektive DSL into the Alchemist simulator"
+    licenseName = "MIT License"
+    licenseUrl = "https://opensource.org/license/mit/"
     publishing {
         publications {
             withType<MavenPublication> {
+                if ("OSSRH" !in name) {
+                    artifact(tasks.javadocJar)
+                }
+                scmConnection = "git:git@github.com:Collektive/${rootProject.name}"
+                projectUrl = "https://github.com/Collektive/${rootProject.name}"
                 pom {
                     developers {
                         developer {
-                            name.set("Danilo Pianini")
-                            email.set("danilo.pianini@gmail.com")
-                            url.set("http://www.danilopianini.org/")
+                            name = "Elisa Tronetti"
+                            email = "elisa.tronetti@studio.unibo.it"
+                            url = "https://github.com/ElisaTronetti"
+                        }
+                        developer {
+                            name = "Nicolas Farabegoli"
+                            email = "nicolas.farabegoli@unibo.it"
+                            url = "https://nicolasfarabegoli.it"
                         }
                     }
                 }
             }
+        }
+    }
+}
+
+// Enforce the use of the Kotlin version
+configurations.all {
+    resolutionStrategy.eachDependency {
+        if (requested.group == "org.jetbrains.kotlin") {
+            useVersion(rootProject.libs.versions.kotlin.get())
         }
     }
 }
