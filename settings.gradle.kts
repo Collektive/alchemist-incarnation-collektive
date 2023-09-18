@@ -20,4 +20,4 @@ gitHooks {
     createHooks()
 }
 
-rootProject.name = "collektive-alchemist-integration"
+rootProject.name = "alchemist-incarnation-collektive"
