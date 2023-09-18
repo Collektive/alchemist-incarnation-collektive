@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>Collektive/renovate-config:kotlin"
+  ],
+  "packageRules": [
+    {
+      "description": "Trigger a patch update on Alchemist upgrades",
+      "matchPackagePrefixes": [
+        "it.unibo.alchemist"
+      ],
+      "semanticCommitScope": "core-deps"
+    }
   ]
 }
