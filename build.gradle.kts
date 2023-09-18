@@ -1,3 +1,6 @@
+import io.gitlab.arturbosch.detekt.Detekt
+import io.gitlab.arturbosch.detekt.DetektPlugin
+
 plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
@@ -6,6 +9,7 @@ plugins {
     alias(libs.plugins.publishOnCentral)
     alias(libs.plugins.multiJvmTesting)
     alias(libs.plugins.taskTree)
+    alias(libs.plugins.collektive)
 }
 
 group = "it.unibo.collektive"
@@ -15,7 +19,8 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.kotlin.stdlib)
+    implementation(libs.collektive)
+    implementation(libs.bundles.alchemist)
     testImplementation(libs.bundles.kotlin.testing)
 }
 
@@ -77,6 +82,23 @@ publishOnCentral {
             }
         }
     }
+}
+
+multiJvm {
+    jvmVersionForCompilation.set(latestJava)
+}
+
+plugins.withType<DetektPlugin> {
+    val check by tasks.getting
+    val detektAll by tasks.creating { group = "verification" }
+    tasks.withType<Detekt>()
+        .matching { task ->
+            task.name.let { it.endsWith("Main") || it.endsWith("Test") } && !task.name.contains("Baseline")
+        }
+        .all {
+            check.dependsOn(this)
+            detektAll.dependsOn(this)
+        }
 }
 
 // Enforce the use of the Kotlin version
