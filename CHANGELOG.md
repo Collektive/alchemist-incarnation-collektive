@@ -1,3 +1,22 @@
+## [0.2.2](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.1...0.2.2) (2023-09-28)
+
+
+### Dependency updates
+
+* **core-deps:** update collektive to v0.3.3 ([1c8c691](https://github.com/Collektive/alchemist-incarnation-collektive/commit/1c8c69107959c9723b0c90d07e8dd972bae1aebc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([603bd11](https://github.com/Collektive/alchemist-incarnation-collektive/commit/603bd11cab1116288a9d703004e6c99e3d7d5707))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([3a3938d](https://github.com/Collektive/alchemist-incarnation-collektive/commit/3a3938d9ec7bb7ac69602bba720b2fee2f999ab0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([168b890](https://github.com/Collektive/alchemist-incarnation-collektive/commit/168b8905f326b8014db350042d291f6a6bde0b46))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([53150d3](https://github.com/Collektive/alchemist-incarnation-collektive/commit/53150d305f5424b31c43c519853bac1c14b871bb))
+* **deps:** update node.js to 18.18 ([8143822](https://github.com/Collektive/alchemist-incarnation-collektive/commit/81438220564771728da810c084d7d4480cb101a5))
+* **deps:** update plugin kotlin-qa to v0.50.0 ([114ff18](https://github.com/Collektive/alchemist-incarnation-collektive/commit/114ff188bee4150f95e1b60aa7e85bba66068ad7))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.0 ([bb1ac08](https://github.com/Collektive/alchemist-incarnation-collektive/commit/bb1ac08eef98c99ecbed2bf01426516fe32c5328))
+* **deps:** update danysk/action-checkout action to v0.2.13 ([a50a60a](https://github.com/Collektive/alchemist-incarnation-collektive/commit/a50a60a8e37d9064866f0368e246598a53b0f714))
+
 ## [0.2.1](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.0...0.2.1) (2023-09-19)
 
 
