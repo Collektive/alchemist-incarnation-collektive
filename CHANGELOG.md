@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.2...0.2.3) (2023-09-29)
+
+
+### Dependency updates
+
+* **core-deps:** update collektive to v0.3.4 ([997d0bd](https://github.com/Collektive/alchemist-incarnation-collektive/commit/997d0bdfa52c634d8a2aefaba789edbd49ce7711))
+
 ## [0.2.2](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.1...0.2.2) (2023-09-28)
 
 
