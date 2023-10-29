@@ -20,8 +20,7 @@ import it.unibo.alchemist.model.reactions.Event
 import it.unibo.alchemist.model.timedistributions.DiracComb
 import it.unibo.alchemist.model.times.DoubleTime
 import it.unibo.alchemist.util.RandomGenerators.nextDouble
-import it.unibo.collektive.AggregateContext
-import it.unibo.collektive.IntId
+import it.unibo.collektive.aggregate.AggregateResult
 import it.unibo.collektive.alchemist.device.CollektiveDevice
 import org.apache.commons.math3.random.RandomGenerator
 import org.danilopianini.util.ListSet
@@ -60,7 +59,7 @@ class CollektiveIncarnation<P> : Incarnation<Any, P> where P : Position<P> {
         val aggregateEntrypoint: Method
         val programIdentifier = SimpleMolecule(additionalParameters)
         val localDevice: CollektiveDevice<P> by lazy { this.node.asProperty() }
-        val run: () -> AggregateContext.AggregateResult<*>
+        val run: () -> AggregateResult<*>
 
         init {
             declareDependencyTo(programIdentifier)
@@ -72,11 +71,11 @@ class CollektiveIncarnation<P> : Incarnation<Any, P> where P : Position<P> {
             aggregateEntrypoint = clazz
                 .methods
                 .asSequence()
-                .filter { it.returnType == AggregateContext.AggregateResult::class.java }
+                .filter { it.returnType == AggregateResult::class.java }
                 .first {
                     it.name == additionalParameters.substring(lastDotIndex + 1) && it.parameters.isEmpty()
                 }
-            run = { aggregateEntrypoint.invoke(instance) as AggregateContext.AggregateResult<*> }
+            run = { aggregateEntrypoint.invoke(instance) as AggregateResult<*> }
         }
 
         override fun cloneAction(node: Node<Any>, reaction: Reaction<Any>): Action<Any> {
@@ -90,7 +89,7 @@ class CollektiveIncarnation<P> : Incarnation<Any, P> where P : Position<P> {
                 programIdentifier,
                 result.result ?: error("Trying to set null as concentration for $node"),
             )
-            localDevice.send(IntId(localDevice.node.id), result.toSend)
+            localDevice.write(result.toSend)
         }
 
         override fun getContext(): Context = Context.NEIGHBORHOOD
