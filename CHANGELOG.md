@@ -1,3 +1,21 @@
+## [0.2.7](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.6...0.2.7) (2023-10-29)
+
+
+### Dependency updates
+
+* **deps:** update plugin kotlin-qa to v0.52.0 ([3f84678](https://github.com/Collektive/alchemist-incarnation-collektive/commit/3f846785dcc6f3f2d27efd22998ecec601c88584))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.13 ([39ba00c](https://github.com/Collektive/alchemist-incarnation-collektive/commit/39ba00c130d5fdb378d939be7bb373b9fe32871d))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.10 ([5e739b3](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5e739b3c853c8b635d549b56a994e59f96cab70a))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v3.8.2 ([ec1ba16](https://github.com/Collektive/alchemist-incarnation-collektive/commit/ec1ba160d50f6a0b48a214eb191eb76c50aa25e8))
+
 ## [0.2.6](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.5...0.2.6) (2023-10-29)
 
 
