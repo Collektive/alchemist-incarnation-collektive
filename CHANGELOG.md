@@ -1,3 +1,17 @@
+## [0.2.4](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.3...0.2.4) (2023-10-29)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.10 ([c2ed962](https://github.com/Collektive/alchemist-incarnation-collektive/commit/c2ed962b42f134f9583b8fb5feba7d3e21abbe9c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([621ea8b](https://github.com/Collektive/alchemist-incarnation-collektive/commit/621ea8b484eea4cc78370d98ffe2ede80b5d78a9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([390bb79](https://github.com/Collektive/alchemist-incarnation-collektive/commit/390bb7910863a7ecae6c8430a3d57b50fdc063d3))
+
+
+### General maintenance
+
+* downgrade to kotlin 1.9.0 ([4ca4a54](https://github.com/Collektive/alchemist-incarnation-collektive/commit/4ca4a54cb9a5756a95dcd0c6f932c0905b688cb3))
+
 ## [0.2.3](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.2...0.2.3) (2023-09-29)
 
 
