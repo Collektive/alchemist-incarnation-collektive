@@ -1,3 +1,21 @@
+## [0.2.5](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.4...0.2.5) (2023-10-29)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v28.4.3 ([5521ec2](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5521ec2e3dca91ff96a8236ebb6b54741a51569e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([12a080a](https://github.com/Collektive/alchemist-incarnation-collektive/commit/12a080aea7a3148caf7867b126ad72af0fa666f8))
+* **deps:** update plugin com.gradle.enterprise to v3.15.1 ([2e56186](https://github.com/Collektive/alchemist-incarnation-collektive/commit/2e56186ebf163e45aa5d48de33acc3a74ab74b6b))
+* **deps:** update plugin gitsemver to v1.1.15 ([309f38c](https://github.com/Collektive/alchemist-incarnation-collektive/commit/309f38c30a93a498b6ebfc37a6e8c37ea909de74))
+* **deps:** update plugin publishoncentral to v5.0.16 ([f93c772](https://github.com/Collektive/alchemist-incarnation-collektive/commit/f93c7725c3d9f7b2e1888b4746e29b04b902478d))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([b44f6af](https://github.com/Collektive/alchemist-incarnation-collektive/commit/b44f6af72b15268a21d4765b01c3037df5049e83))
+* **deps:** update danysk/action-checkout action to v0.2.14 ([0505111](https://github.com/Collektive/alchemist-incarnation-collektive/commit/0505111fae827c8640d5e001a01b06c8308a464f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.10 ([305cd30](https://github.com/Collektive/alchemist-incarnation-collektive/commit/305cd30aad56502773b91f53aa648e21b60a1751))
+
 ## [0.2.4](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.3...0.2.4) (2023-10-29)
 
 
