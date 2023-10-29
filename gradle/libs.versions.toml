@@ -1,6 +1,6 @@
 [versions]
 alchemist = "28.4.3"
-collektive = "0.3.4"
+collektive = "0.4.2"
 kotest = "5.7.2"
 kotlin = "1.9.0"
 mockito = "5.5.0"
