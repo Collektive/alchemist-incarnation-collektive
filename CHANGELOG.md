@@ -1,3 +1,24 @@
+## [0.3.0](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.7...0.3.0) (2023-10-29)
+
+
+### Features
+
+* use new collektive api ([6af622c](https://github.com/Collektive/alchemist-incarnation-collektive/commit/6af622c3e5997d645fa22665952ef9a8dddc29d2))
+
+
+### Dependency updates
+
+* **core-deps:** update collektive to v1 ([84f63c2](https://github.com/Collektive/alchemist-incarnation-collektive/commit/84f63c2a9b2cb0024d7ff513d8ee126bb6d93f58))
+* **deps:** update dependency gradle to v8.4 ([a03f0b2](https://github.com/Collektive/alchemist-incarnation-collektive/commit/a03f0b2b1b2d4577a912b58ad11a90feac080d2e))
+* **deps:** update dependency org.mockito:mockito-core to v5.6.0 ([1937f89](https://github.com/Collektive/alchemist-incarnation-collektive/commit/1937f89cb5801a462f968216d48aea9f6b8c5529))
+* **deps:** update node.js to v20 ([3d15d01](https://github.com/Collektive/alchemist-incarnation-collektive/commit/3d15d01d1a4514c4eed71e02d1557c93888bc7f8))
+* **deps:** update plugin gitsemver to v2 ([49dea5d](https://github.com/Collektive/alchemist-incarnation-collektive/commit/49dea5d6b8efc9f9dde59ef26dc5c3f597f87223))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4 ([5307235](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5307235f9ca4f5b3c13f7ff1276bf6341d09d49d))
+
 ## [0.2.7](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.6...0.2.7) (2023-10-29)
 
 
