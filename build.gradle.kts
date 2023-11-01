@@ -85,7 +85,7 @@ publishOnCentral {
 }
 
 multiJvm {
-    jvmVersionForCompilation.set(latestJava)
+    jvmVersionForCompilation.set(17)
 }
 
 plugins.withType<DetektPlugin> {
