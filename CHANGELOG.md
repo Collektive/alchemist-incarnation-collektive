@@ -1,3 +1,19 @@
+## [1.0.0](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.3.1...1.0.0) (2023-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* do not target java versions newer than the oldest supported by Alchemist
+
+### Dependency updates
+
+* **deps:** update plugin publishoncentral to v5.0.18 ([8bc6d8a](https://github.com/Collektive/alchemist-incarnation-collektive/commit/8bc6d8ab05e7e0ab24e289a5f0af4dd84ef3b919))
+
+
+### Build and continuous integration
+
+* do not target java versions newer than the oldest supported by Alchemist ([038f123](https://github.com/Collektive/alchemist-incarnation-collektive/commit/038f12386423d0d190e8afa74681a4a552ed65b2))
+
 ## [0.3.1](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.3.0...0.3.1) (2023-11-01)
 
 
