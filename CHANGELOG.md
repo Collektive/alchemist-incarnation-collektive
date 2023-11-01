@@ -1,3 +1,14 @@
+## [0.3.1](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.3.0...0.3.1) (2023-11-01)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v28.4.4 ([b905878](https://github.com/Collektive/alchemist-incarnation-collektive/commit/b905878ac9c3367847997848f3f9d90f52da790e))
+* **deps:** update plugin gitsemver to v2.0.1 ([47d789e](https://github.com/Collektive/alchemist-incarnation-collektive/commit/47d789efd47edff132132568fbf021154de44e82))
+* **deps:** update plugin kotlin-qa to v0.53.0 ([aacadea](https://github.com/Collektive/alchemist-incarnation-collektive/commit/aacadeafdd47f0c33bf6f3e64b62ee4446e58bf1))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.14 ([29cc1b0](https://github.com/Collektive/alchemist-incarnation-collektive/commit/29cc1b0cf7b731c849d3524b49a2bf5808814fe0))
+* **deps:** update plugin publishoncentral to v5.0.17 ([5f5ae32](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5f5ae321cfdb1f83e3913563f7a476bf8e582351))
+
 ## [0.3.0](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.2.7...0.3.0) (2023-10-29)
 
 
