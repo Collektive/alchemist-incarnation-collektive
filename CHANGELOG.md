@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.0...1.0.1) (2023-11-03)
+
+
+### Dependency updates
+
+* **core-deps:** update collektive to v2 ([3a82bfa](https://github.com/Collektive/alchemist-incarnation-collektive/commit/3a82bfa5774f06ac18c8a6110742407bfc8f97e8))
+* **deps:** update dependency org.mockito:mockito-core to v5.7.0 ([5b5a350](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5b5a3500a52d1bdd2cb7479f0794f95cfd0df208))
+* **deps:** update plugin multijvmtesting to v0.5.6 ([d6f19c1](https://github.com/Collektive/alchemist-incarnation-collektive/commit/d6f19c11da6d0f504854ff4ec10aae5f79cd7468))
+
 ## [1.0.0](https://github.com/Collektive/alchemist-incarnation-collektive/compare/0.3.1...1.0.0) (2023-11-01)
 
 
