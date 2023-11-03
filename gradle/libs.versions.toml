@@ -1,7 +1,7 @@
 [versions]
 alchemist = "28.4.4"
 collektive = "2.0.0"
-kotest = "5.7.2"
+kotest = "5.8.0"
 kotlin = "1.9.0"
 mockito = "5.7.0"
 
