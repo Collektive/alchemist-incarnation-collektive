@@ -1,3 +1,16 @@
+## [1.0.2](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.1...1.0.2) (2023-11-06)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v28.5.0 ([10320cf](https://github.com/Collektive/alchemist-incarnation-collektive/commit/10320cf606d965aacc2a99211640af389c453808))
+* **deps:** update kotest to v5.8.0 ([b162494](https://github.com/Collektive/alchemist-incarnation-collektive/commit/b162494854a2046dc8b9eaa811dd1827cd918ddc))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.11 ([c3eeea9](https://github.com/Collektive/alchemist-incarnation-collektive/commit/c3eeea94d00b2e4e82b60a98c6720beed03eaf28))
+
 ## [1.0.1](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.0...1.0.1) (2023-11-03)
 
 
