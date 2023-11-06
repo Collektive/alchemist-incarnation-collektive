@@ -25,10 +25,15 @@ dependencies {
 }
 
 kotlin {
+    sourceSets.all {
+        languageSettings {
+            languageVersion = "2.0"
+        }
+    }
     target {
         compilations.all {
             kotlinOptions {
-                allWarningsAsErrors = true
+                allWarningsAsErrors = false
                 freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
             }
         }
@@ -102,7 +107,7 @@ plugins.withType<DetektPlugin> {
 }
 
 // Enforce the use of the Kotlin version
-configurations.all {
+configurations.matching { it.name != "detekt" }.all {
     resolutionStrategy.eachDependency {
         if (requested.group == "org.jetbrains.kotlin") {
             useVersion(rootProject.libs.versions.kotlin.get())
