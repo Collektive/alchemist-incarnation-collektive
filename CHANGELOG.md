@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.3...1.0.4) (2023-11-07)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v28.5.1 ([991355a](https://github.com/Collektive/alchemist-incarnation-collektive/commit/991355a0565d973dda77f9f08e0538a1453d744b))
+* **deps:** update plugin kotlin-qa to v0.54.0 ([fb4ade7](https://github.com/Collektive/alchemist-incarnation-collektive/commit/fb4ade737d0757073a8099bd5e4f56599235bf8e))
+
 ## [1.0.3](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.2...1.0.3) (2023-11-06)
 
 
