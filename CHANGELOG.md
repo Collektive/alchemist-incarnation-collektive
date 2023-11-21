@@ -1,3 +1,12 @@
+## [1.0.8](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.7...1.0.8) (2023-11-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29 ([9e015d1](https://github.com/Collektive/alchemist-incarnation-collektive/commit/9e015d17e6ed8ad9b04ba844eabd23c4c9417028))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([0a58bb3](https://github.com/Collektive/alchemist-incarnation-collektive/commit/0a58bb3cdc0f47d9d383a9aee6410c514c40e0f6))
+* **deps:** update plugin gitsemver to v2.0.2 ([e3c179f](https://github.com/Collektive/alchemist-incarnation-collektive/commit/e3c179f8500a5d74b1aadc45e069fdb91c0b6357))
+
 ## [1.0.7](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.6...1.0.7) (2023-11-12)
 
 
