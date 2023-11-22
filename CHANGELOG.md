@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.8...1.0.9) (2023-11-22)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.0.1 ([e413690](https://github.com/Collektive/alchemist-incarnation-collektive/commit/e4136901623b2aa9ab7561a42de4311d95314b6c))
+* **deps:** update node.js to 20.10 ([7550c8f](https://github.com/Collektive/alchemist-incarnation-collektive/commit/7550c8fc0affd07c69e7d9794bdad76e6863d164))
+
 ## [1.0.8](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.7...1.0.8) (2023-11-21)
 
 
