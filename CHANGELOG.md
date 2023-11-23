@@ -1,3 +1,14 @@
+## [1.0.10](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.9...1.0.10) (2023-11-23)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.21 ([d7cf8f9](https://github.com/Collektive/alchemist-incarnation-collektive/commit/d7cf8f97fc1e13b0bfa40f86de19b81cad97687e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([aeeb875](https://github.com/Collektive/alchemist-incarnation-collektive/commit/aeeb875e001f9ebc57aed630791df5e80a12ec78))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([15a7815](https://github.com/Collektive/alchemist-incarnation-collektive/commit/15a78159005e2f899313bbb4fd41fddeffa53f44))
+* **deps:** update plugin gitsemver to v2.0.3 ([06541db](https://github.com/Collektive/alchemist-incarnation-collektive/commit/06541db5ad96d488b14248dcb8bde8c231178b07))
+* **deps:** update plugin publishoncentral to v5.0.20 ([d6d5863](https://github.com/Collektive/alchemist-incarnation-collektive/commit/d6d5863d50737c576d34409a94b4d28dc68d2cb8))
+
 ## [1.0.9](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.8...1.0.9) (2023-11-22)
 
 
