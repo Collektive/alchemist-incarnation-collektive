@@ -26,7 +26,7 @@ alchemist = [ "alchemist"]
 
 [plugins]
 dokka = "org.jetbrains.dokka:1.9.10"
-gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning:2.0.3"
+gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning:2.0.4"
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.55.2"
 multiJvmTesting = "org.danilopianini.multi-jvm-test-plugin:0.5.7"
