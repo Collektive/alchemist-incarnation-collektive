@@ -1,3 +1,22 @@
+## [1.0.14](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.13...1.0.14) (2023-12-02)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.0.5 ([576f555](https://github.com/Collektive/alchemist-incarnation-collektive/commit/576f555f192eee1ee8be7f6545f3b9d1de297333))
+* **deps:** update dependency gradle to v8.5 ([1098be2](https://github.com/Collektive/alchemist-incarnation-collektive/commit/1098be2cdf0eb17f62c831a4f8607ba3f008598e))
+* **deps:** update dependency org.mockito:mockito-core to v5.8.0 ([67bfdbc](https://github.com/Collektive/alchemist-incarnation-collektive/commit/67bfdbc82e2173cac37c2981f112c817d781539e))
+* **deps:** update plugin gitsemver to v2.0.4 ([e2b8a79](https://github.com/Collektive/alchemist-incarnation-collektive/commit/e2b8a79315b5da1e88f0ba89b93dcb9c800a4af9))
+* **deps:** update plugin kotlin-qa to v0.55.2 ([f549408](https://github.com/Collektive/alchemist-incarnation-collektive/commit/f549408f90c35be385bc98d66a3ea701c5534aaa))
+* **deps:** update plugin kotlin-qa to v0.56.0 ([17a9326](https://github.com/Collektive/alchemist-incarnation-collektive/commit/17a9326d955bc4291079df611bec578fb5370836))
+* **deps:** update plugin multijvmtesting to v0.5.7 ([c5422d4](https://github.com/Collektive/alchemist-incarnation-collektive/commit/c5422d4e0c4520a07cc25845d2419b4a0fc21c92))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.16 ([2a494ff](https://github.com/Collektive/alchemist-incarnation-collektive/commit/2a494ff3c4e1873f9410f54b05e431b10f656f0b))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.12 ([19adcd7](https://github.com/Collektive/alchemist-incarnation-collektive/commit/19adcd7a3375a5c9ad226fe1f3610305f831c858))
+
 ## [1.0.13](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.12...1.0.13) (2023-11-26)
 
 
