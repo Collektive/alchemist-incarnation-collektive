@@ -1,3 +1,18 @@
+## [1.0.23](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.22...1.0.23) (2023-12-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.22 ([6cd4959](https://github.com/Collektive/alchemist-incarnation-collektive/commit/6cd4959fea2abba2e3f6581fbc80ab5533dad6c2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([42ba7f6](https://github.com/Collektive/alchemist-incarnation-collektive/commit/42ba7f67da56c025d485be1b6e8ccdcd93475e12))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([48ec110](https://github.com/Collektive/alchemist-incarnation-collektive/commit/48ec1106e358c401f07b6ecd20772adb25fcbd31))
+* **deps:** update plugin com.gradle.enterprise to v3.16.1 ([b198199](https://github.com/Collektive/alchemist-incarnation-collektive/commit/b1981993d05030f01eaca4a290faec2e8bf704eb))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.1 ([84e3956](https://github.com/Collektive/alchemist-incarnation-collektive/commit/84e3956ab15ed6500e3e0bf5c7c206dba4969775))
+
 ## [1.0.22](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.21...1.0.22) (2023-12-12)
 
 
