@@ -1,3 +1,17 @@
+## [1.0.25](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.24...1.0.25) (2024-01-10)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.3.5 ([92a5103](https://github.com/Collektive/alchemist-incarnation-collektive/commit/92a5103e189c86fee70698d1dcbec0725d1f7a2e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([6a8925e](https://github.com/Collektive/alchemist-incarnation-collektive/commit/6a8925efa2bd3ad2f4fcd6c4ae7b03bcf96a89cd))
+* **deps:** update plugin gitsemver to v2.0.5 ([6cd091c](https://github.com/Collektive/alchemist-incarnation-collektive/commit/6cd091c509146b3250ed5f40bfdd5161df4fca89))
+* **deps:** update plugin kotlin-qa to v0.58.0 ([6c82ed0](https://github.com/Collektive/alchemist-incarnation-collektive/commit/6c82ed0f709650e7e2b349b431436b43cbdee4c0))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.17 ([a85d146](https://github.com/Collektive/alchemist-incarnation-collektive/commit/a85d14649379e98254399507392f20c27bb30e98))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.18 ([fa1fc41](https://github.com/Collektive/alchemist-incarnation-collektive/commit/fa1fc41275cdd9d7288f41f479a1875bf79e2125))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2 ([cae3b75](https://github.com/Collektive/alchemist-incarnation-collektive/commit/cae3b75d7e8e5d145a053b28e0d3b8bd6f67db38))
+* **deps:** update plugin publishoncentral to v5.0.22 ([8b0fb57](https://github.com/Collektive/alchemist-incarnation-collektive/commit/8b0fb57a9a2a6e8fb84c67767b1ae118d75d9757))
+
 ## [1.0.24](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.23...1.0.24) (2023-12-22)
 
 
