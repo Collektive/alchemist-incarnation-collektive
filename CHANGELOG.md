@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.25...1.0.26) (2024-01-10)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.4.0 ([2d8ea7d](https://github.com/Collektive/alchemist-incarnation-collektive/commit/2d8ea7dd998c2d66d2aa6fb80827658c8a1893c0))
+
 ## [1.0.25](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.24...1.0.25) (2024-01-10)
 
 
