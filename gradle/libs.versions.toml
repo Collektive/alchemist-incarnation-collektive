@@ -3,7 +3,7 @@ alchemist = "29.4.0"
 collektive = "2.0.1"
 kotest = "5.8.0"
 kotlin = "1.9.22"
-mockito = "5.8.0"
+mockito = "5.9.0"
 
 [libraries]
 kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
