@@ -1,3 +1,18 @@
+## [1.0.27](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.26...1.0.27) (2024-01-17)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.5.0 ([c1f8af8](https://github.com/Collektive/alchemist-incarnation-collektive/commit/c1f8af890bfe37d8f18b07e045a1eeabccf15517))
+* **deps:** update dependency org.mockito:mockito-core to v5.9.0 ([2514a37](https://github.com/Collektive/alchemist-incarnation-collektive/commit/2514a37520965308009df3b7e10ed927eeafc381))
+* **deps:** update node.js to 20.11 ([5291e96](https://github.com/Collektive/alchemist-incarnation-collektive/commit/5291e9692334b05010a7c7a5c3a42823aa1935d2))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.8.0 ([71a9ce2](https://github.com/Collektive/alchemist-incarnation-collektive/commit/71a9ce2d63d347b0324c5e88215f28015cab9702))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.13 ([d65b3a3](https://github.com/Collektive/alchemist-incarnation-collektive/commit/d65b3a3d06fd313b010b96f7ff87f3cd08e7f69e))
+
 ## [1.0.26](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.25...1.0.26) (2024-01-10)
 
 
