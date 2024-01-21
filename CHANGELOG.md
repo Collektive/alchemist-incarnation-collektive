@@ -1,3 +1,16 @@
+## [1.0.28](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.27...1.0.28) (2024-01-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v29.5.1 ([e66ad2f](https://github.com/Collektive/alchemist-incarnation-collektive/commit/e66ad2f8c6cb9aa9333db05cdaa31674a34db1ca))
+* **deps:** update plugin gitsemver to v3 ([d76dc3f](https://github.com/Collektive/alchemist-incarnation-collektive/commit/d76dc3f5639094abe91e44d1b87066ecbd6d2c04))
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.14 ([0e81096](https://github.com/Collektive/alchemist-incarnation-collektive/commit/0e81096932a83aa16418d3968de6aff16fee1424))
+
 ## [1.0.27](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.26...1.0.27) (2024-01-17)
 
 
