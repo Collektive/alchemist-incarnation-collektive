@@ -1,3 +1,12 @@
+## [1.0.29](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.28...1.0.29) (2024-01-23)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v30 ([0ad2096](https://github.com/Collektive/alchemist-incarnation-collektive/commit/0ad2096b355629e26ac60eda712aec886d88dfca))
+* **core-deps:** update dependency it.unibo.alchemist:alchemist to v30.0.1 ([fe3e4ae](https://github.com/Collektive/alchemist-incarnation-collektive/commit/fe3e4aeaf0e3fab357c13257278d016216502805))
+* **deps:** update plugin gitsemver to v3.1.0 ([e72623d](https://github.com/Collektive/alchemist-incarnation-collektive/commit/e72623d151e1a17a0460c06a846ee1faa7e6016e))
+
 ## [1.0.28](https://github.com/Collektive/alchemist-incarnation-collektive/compare/1.0.27...1.0.28) (2024-01-21)
 
 
